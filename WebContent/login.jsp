@@ -12,7 +12,7 @@
 		<s:textfield name="user.name" label="名子"></s:textfield>
 		<s:password name="user.passwd" label="密碼"></s:password>
 
-		<s:submit  method="execute" value="Login"></s:submit>
+		<s:submit value="Login"></s:submit>
 	</s:form>
 </body>
 </html>

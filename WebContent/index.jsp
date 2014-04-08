@@ -9,6 +9,7 @@
 </head>
 <body>
 	<h1>Welcome!!</h1>
+	<h2><s:user.name /></h2>
 	<h2><s:actionmessage /></h2>
 </body>
 </html>

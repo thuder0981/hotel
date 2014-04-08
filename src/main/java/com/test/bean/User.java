@@ -3,6 +3,7 @@ package com.test.bean;
 public class User {
 	private String name;
 	private String passwd;
+	
 
 	public void SetName(String szName) {
 		this.name = szName;
