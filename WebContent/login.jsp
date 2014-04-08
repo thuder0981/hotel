@@ -5,14 +5,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Insert title here</title>
+<title>Hotel Login</title>
 </head>
 <body>
-	<s:form action="login" namespace="/" method="post">
+	<s:form action="login" namespace="/">
 		<s:textfield name="user.name" label="名子"></s:textfield>
 		<s:password name="user.passwd" label="密碼"></s:password>
 
-		<s:submit value="Login"></s:submit>
+		<s:submit  method="execute" value="Login"></s:submit>
 	</s:form>
 </body>
 </html>

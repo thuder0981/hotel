@@ -9,7 +9,13 @@ public class LoginAction extends ActionSupport{
 	private User user;
 	
 	public String execute() throws Exception{
+		addActionMessage("execute()");
 		return SUCCESS;
 	}
- 	
+ 	public User getUser(){
+ 		return this.user;
+ 	}
+ 	public void setUser( User user){
+ 		this.user = user;
+ 	}
 }
