@@ -5,16 +5,16 @@ public class User {
 	private String passwd;
 	
 
-	public void SetName(String szName) {
-		this.name = szName;
+	public void setName(String name) {
+		this.name = name;
 	}
-	public void SetPasswd(String szPasswd) {
-		this.passwd = szPasswd;
+	public void setPasswd(String passwd) {
+		this.passwd = passwd;
 	}
-	public String GetName(){
+	public String getName(){
 		return this.name;
 	}
-	public String GetPasswd(){
+	public String getPasswd(){
 		return this.passwd;
 	}
 

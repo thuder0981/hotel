@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
+<%@ page language="java" import="java.util.*" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
 <%@ taglib uri="/struts-tags" prefix="s"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -8,8 +8,7 @@
 <title>Hotel Manager 1.0</title>
 </head>
 <body>
-	<h1>Welcome!!</h1>
-	<h2><s:user.name /></h2>
-	<h2><s:actionmessage /></h2>
+	<h2>Welcome!!  <s:actionmessage /></h2>
+	<s:debug></s:debug>
 </body>
 </html>
