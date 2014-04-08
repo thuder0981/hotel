@@ -4,11 +4,9 @@
     "http://struts.apache.org/dtds/struts-2.0.dtd">
 
 <struts>
-	<package name="com.test" namespace="/" extends="struts-default">
+	<package name="default" namespace="/" extends="struts-default">
 		<action name="login" class="com.test.LoginAction" method="login">
-			<result name="success">
-				/index.jsp
-			</result>
+			<result name="success">/index.jsp</result>
 		</action>
 	</package>
 </struts>     
