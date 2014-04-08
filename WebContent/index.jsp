@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Insert title here</title>
+<title>Hotel Manager 1.0</title>
 </head>
 <body>
 	<h1>Welcome!!</h1>
