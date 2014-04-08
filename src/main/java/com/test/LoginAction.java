@@ -9,7 +9,7 @@ public class LoginAction extends ActionSupport{
 	private User user;
 	
 	public String execute() throws Exception{
-		addActionMessage( user.GetName() );
+		addActionMessage( ">>"+user.GetName() );
 		return SUCCESS;
 	}
  	public User getUser(){
